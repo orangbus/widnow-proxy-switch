@@ -19,7 +19,7 @@ Set WSHShell = WScript.CreateObject("WScript.Shell")
 'get the username string for use in path names, since trying to use the "%USERNAME%" variable
 'directly in path names throws an error
 ' username = WSHShell.ExpandEnvironmentStrings("%USERNAME%")
-username = "32289" ' 手动修改自己的额用户名
+username = "32289" ' 如果报错，注释上一行代码，手动修改自己的额用户名
 ProxySettings_path = "C:\Users\" + username + "\Windows_Proxy_Toggler"
 
 'Determine current proxy setting and toggle to opposite setting
