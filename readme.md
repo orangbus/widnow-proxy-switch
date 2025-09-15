@@ -1,6 +1,6 @@
 # window 一健开关代理
 
-1、将当前文件夹复制到 `C:\Users\[your-username]` 目录下
+1、解压下载压缩包，文件夹复制到 `C:\Users\[your-username]/Windows_Proxy_Toggler` 目录下
 
 ![](./img/path.png)
 
